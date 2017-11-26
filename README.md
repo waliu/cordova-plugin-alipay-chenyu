@@ -10,6 +10,7 @@ cordova plugin add https://github.com/waliu/cordova-Alipay-chenyu.git --variable
         alert('失败');
       }
     );
+    
  参数说明：orderStr
  
  是支付宝 签名字符串 详细看支付宝 https://docs.open.alipay.com/204/105296/
