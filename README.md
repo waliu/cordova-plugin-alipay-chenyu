@@ -5,17 +5,17 @@ cordova plugin add https://github.com/waliu/cordova-Alipay-chenyu.git --variable
 2.调用说明
 
  cordova.plugins.MyAlipay.coolMethod(orderStr,(msg) => {
- <br>
+<br>
         alert(msg);
-         <br>
+<br>
       },(msg) => {
-       <br>
+<br>
         alert('失败');
-         <br>
-      }
-       <br>
-    );
-     <br>
+<br>
+}
+<br>
+);
+<br>
     
  参数说明：orderStr
  
