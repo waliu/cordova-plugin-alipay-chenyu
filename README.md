@@ -1,11 +1,11 @@
-###更新时间2017年11月26日
+### 更新时间2017年11月26日
 
-#安装使用:
+### 安装使用:
 cordova plugin add cordova-alipay-chenyu --variable APP_ID=你的支付宝id
 <br>
-#调用说明：
-    ### //签名字符串
+# 调用说明：
     let orderStr="";
+    //签名字符串
     cordova.plugins.MyAlipay.coolMethod(orderStr,
       (msg) => {
         // console.log("msg:"+msg);
@@ -14,7 +14,7 @@ cordova plugin add cordova-alipay-chenyu --variable APP_ID=你的支付宝id
         alert('失败');
       }
     );
-#返回参数：
+# 返回参数：
 返回结果示例 iOS|Android
 
     {
@@ -41,10 +41,10 @@ cordova plugin add cordova-alipay-chenyu --variable APP_ID=你的支付宝id
   <br>
 <br>
 待续
-#ionic2+调用:
+# ionic2+调用:
 
 待续
-#联系我们
+# 联系我们
 QQ:250187715
 <br>
 QQ群:390736068
